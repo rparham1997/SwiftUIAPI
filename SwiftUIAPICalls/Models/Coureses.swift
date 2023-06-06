@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Course: Hashable, Codable {
+    let name: String
+    let image: String
+}
